@@ -6,6 +6,7 @@ ADMIN_IDS = ['12345678']
 USER = ["example_user1", "example_user2"]
 # 账号对应的密码，注意与账号顺序对应！！！
 PASSWORD = ["example_password1", "example_password2"]
+# 自动删除配置，未配置默认开启自动删除，留空即可
 AUTO_DELETE = {}
 # 以下分别为aria2 RPC的协议（http/https）、host、端口、密钥
 ARIA2_HTTPS = False
@@ -16,3 +17,6 @@ ARIA2_SECRET = "secret"
 ARIA2_DOWNLOAD_PATH = "/mnt/sda1/aria2/pikpak"
 # 可以自定义TG API，也可以保持默认
 TG_API_URL = 'https://api.telegram.org'
+# 代理
+PROXY_URL = 'http://127.0.0.1:7890/'
+

@@ -2,7 +2,7 @@ version: '3'
 services:
   pikpakbot:
     build: .
-    container_name: pikpakbot
+    container_name: /longweiqiang/pikpakbot
     restart: always
     volumes:
       - .:/code

@@ -6,6 +6,7 @@ on:   # 配置触发workflow的事件
     tags:       # tag更新时触发此workflow
       - '*'
 
+
 jobs:  # workflow中的job
 
   push_to_registry:  # job的名字
